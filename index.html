@@ -15,6 +15,13 @@ title: 首页
     <span class="post-date">{{ post.date | date: "%Y/%m/%d" }}</span>
 
     {{ post.content }}
+
+    <div class="post-tags">
+      {% for tag in site.tags %}
+      <a href="/tags#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+      {% endfor %}
+    </div>
+
   </div>
   {% endfor %}
 </div>
