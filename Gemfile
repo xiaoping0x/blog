@@ -1,5 +1,5 @@
-# source "https://rubygems.org"
-source "https://ruby.taobao.org/"
+source "https://rubygems.org"
+# source "https://ruby.taobao.org/"
 ruby RUBY_VERSION
 
 # Hello! This is where you manage which Jekyll version is used to run.

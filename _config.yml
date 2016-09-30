@@ -4,7 +4,7 @@ highlighter:      pygments
 
 # Paginate
 gems:             [jekyll-paginate]
-paginate:         1
+paginate:         5
 paginate_path:    "/page/:num"
 
 # Permalinks
@@ -17,15 +17,18 @@ paginate_path:    "/page/:num"
 title:            '小平'
 tagline:          '专注于优秀的软件开发技术，用先进的技术解放生产力'
 description:      '专注于优秀的软件开发技术，用先进的技术解放生产力'
-# url:              http://aboutcoder.com
+url:              http://xiaoping0x.github.io
 baseurl:          /
 
 author:
-  name:           'xiaoping0x'
+  name:           xiaoping0x
   url:            http://xiaoping0x.github.io
 
 # Custom vars
 version:          2.1.0
+
+github:
+  url:            http://xiaoping0x.github.io
 
 social:
   github:         http://xiaoping0x.github.io
