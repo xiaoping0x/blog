@@ -1,6 +1,15 @@
 ---
 layout: post
 title: Jekyll up and running
+description: Jekyll up and running, building personal blog site on Github.
+keywords: jekyll, github pages, tools, blogging
+categories:
+  - tools
+  - up and running
+tags:
+  - jekyll
+  - github pages
+  - site generator
 ---
 
 Jekyll是比较完善的静态站点生成器，有很多的插件和主题可以选择，尤其是Github的Pages深度支持Jekyll，依赖于Github强大的服务器，可以很轻松的创建一个博客站点。
