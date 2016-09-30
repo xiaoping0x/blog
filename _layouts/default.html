@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+   <!-- class="theme-base-08 layout-reverse" -->
+  <body>
+
+    {% include sidebar.html %}
+
+    <div class="content container">
+      {{ content }}
+    </div>
+
+  </body>
+
+  {% if jekyll.environment == 'production' and site.tracking.cnzz %}
+  {% include cnzz.html %}
+  {% endif %}
+
+</html>
