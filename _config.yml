@@ -33,11 +33,11 @@ github:
 social:
   github:         http://xiaoping0x.github.io
 
-track:
-  cnzz:           123456 # place the cnzz tracking id, ref:cnzz.com | <http://www.umeng.com/>
+# track:
+#   cnzz:           123456 # place the cnzz tracking id, ref:cnzz.com | <http://www.umeng.com/>
 
-comment:
-  disqus:         abc1234567890 # place the disqus shorname for your custom domain
+# comment:
+#   disqus:         abc1234567890 # place the disqus shorname for your custom domain
 
 sass:
   style: compressed

@@ -2,6 +2,7 @@
 layout: page
 permalink: about
 title: 关于
+order: 99
 ---
 
 我喜欢编程，喜欢看书，喜欢不断学习和实践新的技术，我很乐意和大家一起分享的经验和总结。

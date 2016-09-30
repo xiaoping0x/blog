@@ -4,3 +4,18 @@
 @import "./poole";
 @import "./syntax";
 @import "./hyde";
+
+@media (max-width: 48em) {
+  .sidebar-nav {
+    &:after {
+      clear: right;
+    }
+    text-align: center;
+  }
+  .sidebar-nav-item {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.75;
+  }
+}
